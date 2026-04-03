@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Barilla – Report di Sostenibilità</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #b11226;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.1em;
+        }
+
+        nav {
+            background-color: #8a0d1c;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.95em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 5px;
+            border-left: 4px solid #b11226;
+        }
+
+        section h2 {
+            color: #b11226;
+            margin-top: 0;
+        }
+
+        section p {
+            line-height: 1.6;
+        }
+
+        .info-box {
+            background-color: #fff8f8;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+
+        .info-box h3 {
+            margin-top: 0;
+            color: #555;
+            font-size: 1em;
+        }
+
+        .dati-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .dato {
+            background-color: #b11226;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            text-align: center;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .dato .numero {
+            font-size: 1.8em;
+            font-weight: bold;
+            display: block;
+        }
+
+        .dato .etichetta {
+            font-size: 0.85em;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .pilastri {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .pilastro {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            flex: 1;
+            min-width: 200px;
+            background-color: #fafafa;
+        }
+
+        .pilastro h3 {
+            margin: 0 0 8px 0;
+            color: #b11226;
+            font-size: 0.95em;
+        }
+
+        .pilastro p {
+            margin: 0;
+            font-size: 0.88em;
+            color: #555;
+        }
+
+        .report-lista {
+            list-style: none;
+            padding: 0;
+        }
+
+        .report-lista li {
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fafafa;
+        }
+
+        .report-lista li span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .btn-scarica {
+            background-color: #b11226;
+            color: white;
+            padding: 8px 18px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .btn-scarica:hover {
+            background-color: #8a0d1c;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gruppo Barilla</h1>
+        <p>Sostenibilità e responsabilità nel settore agroalimentare</p>
+    </header>
+
+    <nav>
+        <a href="#azienda">Chi siamo</a>
+        <a href="#sostenibilita">Sostenibilità</a>
+        <a href="#obiettivi">Obiettivi</a>
+        <a href="#report">Report</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Sezione azienda -->
+        <section id="azienda">
+            <h2>Chi è Barilla</h2>
+            <p>
+                Il Gruppo Barilla è una delle principali aziende italiane nel settore agroalimentare, 
+                fondata a Parma nel 1877 da Pietro Barilla. Oggi è presente in oltre 100 paesi nel mondo 
+                con marchi come Barilla, Mulino Bianco, Wasa, Harry's e Pavesi, e conta circa 14.000 dipendenti.
+            </p>
+            <p>
+                L'azienda è rimasta a conduzione familiare per quattro generazioni e si è sempre distinta 
+                per l'attenzione alla qualità dei prodotti e al legame con il territorio italiano.
+            </p>
+
+            <div class="dati-grid">
+                <div class="dato">
+                    <span class="numero">1877</span>
+                    <span class="etichetta">Anno di fondazione</span>
+                </div>
+                <div class="dato">
+                    <span class="numero">+100</span>
+                    <span class="etichetta">Paesi nel mondo</span>
+                </div>
+                <div class="dato">
+                    <span class="numero">14.000</span>
+                    <span class="etichetta">Dipendenti</span>
+                </div>
+                <div class="dato">
+                    <span class="numero">8</span>
+                    <span class="etichetta">Stabilimenti in Italia</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione sostenibilità -->
+        <section id="sostenibilita">
+            <h2>Sostenibilità</h2>
+            <p>
+                La sostenibilità è uno degli elementi centrali della strategia di Barilla. 
+                L'azienda si impegna a ridurre il proprio impatto ambientale, a promuovere 
+                pratiche agricole responsabili e a garantire il benessere dei lavoratori lungo 
+                tutta la filiera produttiva.
+            </p>
+            <p>
+                Le principali aree di intervento sono:
+            </p>
+
+            <div class="pilastri">
+                <div class="pilastro">
+                    <h3>🌱 Agricoltura sostenibile</h3>
+                    <p>Barilla collabora con gli agricoltori per adottare pratiche che riducano l'uso di pesticidi e tutelino la fertilità del suolo.</p>
+                </div>
+                <div class="pilastro">
+                    <h3>💧 Risparmio idrico</h3>
+                    <p>Sono stati adottati sistemi per ridurre il consumo di acqua negli stabilimenti produttivi del -30% rispetto al 2010.</p>
+                </div>
+                <div class="pilastro">
+                    <h3>⚡ Energie rinnovabili</h3>
+                    <p>L'azienda sta progressivamente aumentando la quota di energia proveniente da fonti rinnovabili nei propri impianti.</p>
+                </div>
+                <div class="pilastro">
+                    <h3>♻️ Imballaggi</h3>
+                    <p>Circa il 97% degli imballaggi Barilla è già riciclabile. L'obiettivo è raggiungere il 100% entro il 2025.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione obiettivi -->
+        <section id="obiettivi">
+            <h2>Obiettivi 2030</h2>
+            <p>
+                Barilla ha definito una serie di obiettivi concreti da raggiungere entro il 2030, 
+                in linea con gli SDGs (Obiettivi di Sviluppo Sostenibile) delle Nazioni Unite.
+            </p>
+
+            <div class="info-box">
+                <h3>Riduzione emissioni CO₂</h3>
+                <p>Ridurre del 50% le emissioni di gas serra (Scope 1 e 2) rispetto ai livelli del 2018, puntando alla neutralità carbonica entro il 2030.</p>
+            </div>
+            <div class="info-box">
+                <h3>Filiera responsabile</h3>
+                <p>Garantire che il 100% degli ingredienti chiave provenga da filiere certificate e sostenibili.</p>
+            </div>
+            <div class="info-box">
+                <h3>Imballaggi</h3>
+                <p>Rendere il 100% degli imballaggi riutilizzabili, riciclabili o compostabili entro il 2025.</p>
+            </div>
+            <div class="info-box">
+                <h3>Dieta Mediterranea</h3>
+                <p>Promuovere stili alimentari sani e sostenibili, ispirandosi al modello della dieta mediterranea.</p>
+            </div>
+        </section>
+
+        <!-- Sezione report -->
+        <section id="report">
+            <h2>Report di Sostenibilità</h2>
+            <p>
+                Ogni anno Barilla pubblica il proprio Report di Sostenibilità, un documento che descrive 
+                le attività svolte, i risultati raggiunti e gli obiettivi futuri in ambito ambientale, 
+                sociale ed economico. Di seguito è possibile accedere ai report degli ultimi anni.
+            </p>
+
+            <ul class="report-lista">
+                <li>
+                    <span>Report di Sostenibilità 2023</span>
+                    <a href="https://www.barillagroup.com/it/sostenibilita/" target="_blank" class="btn-scarica">Scarica</a>
+                </li>
+                <li>
+                    <span>Report di Sostenibilità 2022</span>
+                    <a href="https://www.barillagroup.com/it/sostenibilita/" target="_blank" class="btn-scarica">Scarica</a>
+                </li>
+                <li>
+                    <span>Report di Sostenibilità 2021</span>
+                    <a href="https://www.barillagroup.com/it/sostenibilita/" target="_blank" class="btn-scarica">Scarica</a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Project Work – Informatica per le Aziende Digitali (L-31) – Università Telematica Pegaso</p>
+        <p>Dati e informazioni tratti dal sito ufficiale Barilla Group</p>
+    </footer>
+
+</body>
+</html>
